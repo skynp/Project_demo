@@ -1,0 +1,8 @@
+在python中实现了ECDSA的签名以及伪造
+可能需要安装hashlib及libnum库才能正常运行
+在python中的伪造的签名并非中本聪 只是一个函数正确性的验证
+中本聪签名的伪造在sagemath中进行了实现 
+得到了如下伪造签名：
+hash: 0xbf354f45c6c957e7ec37fc27c2317229de8b812fffc6738af97338bc9080f056
+r: 0xa68ef0253ea48804d0c19a5e72c2e929cf3cca1559126914012ad9e489ab3756
+s: 0x59710fdac15b77fb2f3e65a18d3d16d4eb7212d156363727bea784a8468b09eb
