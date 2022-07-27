@@ -1,1 +1,12 @@
 在python中实现了生日攻击
+
+用了hashlib库中的sm3算法 
+
+得到了哈希值前16bit相同的字符串
+
+结果如下：
+str_a:  b'JeVHsAKfelQEHPZC' 
+str_b:  b'wnmzauWOQQULjbfE'
+Hash_a: **df18**937783182b0b6e0c3c7c940c58c7c2073a9580796843f3cf52ab81a1761e 
+Hash_b: **df18**c8317ef7da9ec335b8ee4526185e239336be69fc6de5e259da89e80a88ba
+所需时间: 54.16072654724121 s
