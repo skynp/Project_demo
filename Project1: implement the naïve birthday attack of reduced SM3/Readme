@@ -2,11 +2,13 @@
 
 用了hashlib库中的sm3算法 
 
-得到了哈希值前16bit相同的字符串
+得到了哈希值前36bit相同的字符串
 
 结果如下：
-str_a:  b'JeVHsAKfelQEHPZC' 
-str_b:  b'wnmzauWOQQULjbfE'
-Hash_a: **df18**937783182b0b6e0c3c7c940c58c7c2073a9580796843f3cf52ab81a1761e 
-Hash_b: **df18**c8317ef7da9ec335b8ee4526185e239336be69fc6de5e259da89e80a88ba
-所需时间: 54.16072654724121 s
+str_a:  LTrzBWfnFb0hj45TdvBDeYpeqa7AVp0vqgZn 
+str_b:  Cw2ABy2ixUeBwPtL2hvm9Bi8Webi01b5U98d
+Hash_a: **00475c3ff**b3d09c8a0b0d60e6d7ec00566cd2d09d6095acd531252cb0fce6ac6 
+Hash_b: **00475c3ff**f33eae74b5cbf209481b631200748ddbc72c85cc67e643a24d7d42c
+time :122.33093476  s
+
+
