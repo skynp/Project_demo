@@ -1,1 +1,17 @@
-test
+在python中实现了sm2签名及验证
+其中k分为随机选取及sm3哈希求得
+后者将消息M及签名者的ID和私钥作为sm3算法的输入
+得到的哈希值作为k进行后续的签名
+均进行了代码正确性的认证
+
+椭圆曲线上的点乘使用了如下方法进行加速：
+def funcmult(num, P,a,p):
+  #print("funcmult")
+  num = bin(num)[2:]
+  qx, qy = P[0], P[1]
+  Q = [qx, qy]
+  for i in range(1, len(num)):
+    Q = funcadd(Q, Q, a, p)
+    if num[i] == '1':
+      Q = funcadd(Q, P, a, p)
+  return Q
