@@ -7,11 +7,17 @@
 2.所做项目的简介、项目名称、完成人
 完成的项目包括：
 Project1: implement the naïve birthday attack of reduced SM3
+
 Project2: implement the Rho method of reduced SM3
+
 Project3: implement length extension attack for SM3, SHA256, etc
+
 Project7: report on the application of this deduce technique in Ethereum with ECDSA
+
 Project8: impl sm2 with RFC6979
+
 Project9: verify the above pitfalls with proof-of-concept code
+
 Project12: implement sm2 2P sign with real network communication
 Project14: PoC impl of the scheme, or do implement analysis by Google
 Project15: send a tx on Bitcoin testnet, and parse the tx data down to every bit, betterwrite script yourself
